@@ -43,6 +43,15 @@ const App = () => {
     })
   }
 
+  // example of dynamic keys
+  // let someDynamicKey = 'gas'
+  // const myObject = {
+  //   [someDynamicKey]: 2,
+  // }
+  // const myObject2 = {
+  //   gas: 2,
+  // }
+
   const addCategory = (event) => {
     event.preventDefault()
     
